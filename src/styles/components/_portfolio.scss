@@ -1,0 +1,55 @@
+.mobile-portfolio {
+    @include for-phone-only {
+        display: block;
+    }
+    @include for-tablet-landscape-up {
+        display: none;
+    }
+}
+
+.mobile-portfolio__list {
+    column-gap: $spacing-separator;
+    column-fill: initial;
+    column-count: 1;
+    @include reset-list;
+    @include for-tablet-landscape-up {
+        column-count: 2;
+    }
+}
+
+.mobile-portfolio__item {
+    display: inline-block; /* Fix the misalignment of items */
+    vertical-align: top; /* Keep the item on the very top */
+}
+
+.mobile-portfolio__image {
+    backface-visibility: hidden; /* Remove Image flickering on hover */
+}
+
+
+.desktop-portfolio {
+    @include for-phone-only {
+        display: none;
+    }
+    @include for-tablet-landscape-up {
+        display: block;
+    }
+}
+
+.desktop-portfolio__table {
+    border-collapse: collapse;
+    width: 100%;
+    position: relative;
+}
+
+.desktop-portfolio__label {
+    @include text-sm;
+    text-transform: uppercase;
+
+}
+
+.desktop-portfolio td, th {
+    border-bottom: 1px solid $dark;
+    text-align: left;
+    // position: relative;
+}

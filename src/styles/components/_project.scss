@@ -1,0 +1,21 @@
+.project__overview {
+    display: flex;
+    flex-direction: column;
+    @include for-tablet-landscape-up {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+}
+
+.project__overview h2 {
+    @include text-sm;
+    text-transform: uppercase;
+    border-bottom: $primary-text-color 1px solid;
+}
+
+.project__gallery {
+    column-gap: $spacing-separator;
+    column-fill: initial;
+    column-count: 1;
+}

@@ -1,0 +1,28 @@
+{
+  "name": "freelancer",
+  "version": "1.0.0",
+  "description": "portfolio website template for freelancing ",
+  "main": "index.js",
+  "author": "Robin Verona",
+  "license": "MIT",
+  "private": true,
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build",
+    "commit": "cz"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "3.3.0",
+    "parcel": "latest"
+  },
+  "dependencies": {
+    "sass": "^1.54.8"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}

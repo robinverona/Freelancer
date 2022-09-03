@@ -1,0 +1,19 @@
+.curated-projects__list {
+    column-gap: $spacing-separator;
+    column-fill: initial;
+    column-count: 1;
+    @include reset-list;
+    @include for-tablet-landscape-up {
+        column-count: 2;
+    }
+}
+
+.curated-projects__item {
+    display: inline-block; /* Fix the misalignment of items */
+    vertical-align: top; /* Keep the item on the very top */
+}
+
+.curated-projects__image {
+    backface-visibility: hidden; /* Remove Image flickering on hover */
+
+}

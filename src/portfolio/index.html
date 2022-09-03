@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="../styles/app.css">
+</head>
+
+<body>
+    <main id="app">
+        <!-- Mobile menu sidebar start -->
+        <nav class="sidebar sidebar--hidden">
+
+            <header class="sidebar-main-header sidebar-header">
+                <a href="/" class="sidebar-header__brand">Freelancer</a>
+                <a id="close-sidebar-button sidebar-header__button--close" href="javascript:void(0)"
+                    class="sidebar-button  sidebar__button">Fermer</a>
+            </header>
+
+            <ul class="sidebar__list">
+                <li class="sidebar__item">
+                    <a href="javascript:void(0)" class="sidebar__link">Accueil</a>
+                </li>
+                <li class="sidebar__item">
+                    <a href="javascript:void(0)" class="sidebar__link">A propos</a>
+                </li>
+                <li class="sidebar__item">
+                    <a href="javascript:void(0)" class="sidebar__link">mobile-portfolio</a>
+                </li>
+            </ul>
+            <footer class="sidebar-footer">
+                <ul class="sidebar-footer__list">
+                    <li class="sidebar-footer__item">
+                        <span class="sidebar-footer__label">Email</span>
+                        <a href="javascript:void(0)" class="sidebar-footer__link">robin.verona@edu.gobelins.fr</a>
+                    </li>
+                    <li class="sidebar-footer__item">
+                        <span class="sidebar-footer__label">Réseaux sociaux</span>
+                        <a href="javascript:void(0)" class="sidebar-footer__link">GitHub</a>
+                    </li>
+                </ul>
+            </footer>
+        </nav>
+        <!-- Mobile menu sidebar end -->
+
+        <!-- Navbar -->
+        <header class="navbar">
+            <a href="/" class="navbar__brand">Freelancer</a>
+            <ul class="navbar__list">
+                <li class="navbar__item">
+                    <a href="../index.html" class="navbar__link">Accueil</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="../about.html" class="navbar__link">A propos</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="./index.html" class="navbar__link">Portfolio</a>
+                </li>
+            </ul>
+            <a id="sidebar__button--open" href="javascript:void(0)" class="sidebar__button">Menu</a>
+        </header>
+        <!-- Navbar end -->
+        <!-- Mobile portfolio start -->
+        <section class="mobile-portfolio">
+            <h1 class="curated-project__title">
+                Portfolio
+            </h1>
+            <ul class="mobile-portfolio__list">
+                <li class="mobile-portfolio__item">
+                    <a href="#" class="mobile-portfolio__link">
+                        <img src="https://images.unsplash.com/photo-1583585635793-0e1894c169bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=913&q=80')" alt="Placeholder" class="mobile-portfolio__image">
+                        <div class="mobile-portfolio__overlay">
+                            <h2 class="mobile-portfolio__overlay-title">Project 1</h2>
+                            <p class="mobile-portfolio__overlay-description">Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Quisquam, quae.</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="mobile-portfolio__item">
+                    <a href="#" class="mobile-portfolio__link">
+                        <img src="https://images.unsplash.com/photo-1583585635793-0e1894c169bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=913&q=80')" alt="Placeholder" class="mobile-portfolio__image">
+                        <div class="mobile-portfolio__overlay">
+                            <h2 class="mobile-portfolio__overlay-title">Project 2</h2>
+                            <p class="mobile-portfolio__overlay-description">Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Quisquam, quae.</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="mobile-portfolio__item">
+                    <a href="#" class="mobile-portfolio__link">
+                        <img src="https://images.unsplash.com/photo-1583585635793-0e1894c169bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=913&q=80')" alt="Placeholder" class="mobile-portfolio__image">
+                        <div class="mobile-portfolio__overlay">
+                            <h2 class="mobile-portfolio__overlay-title">Project 3</h2>
+                            <p class="mobile-portfolio__overlay-description">Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Quisquam, quae.</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <!-- Mobile portfolio end -->
+        <!-- Desktop portfolio start -->
+        <section class="desktop-portfolio">
+            <table class="desktop-portfolio__table">
+                <tr class="desktop-portfolio__table-row">
+                    <th class="desktop-portfolio__label">Titre</th>
+                    <th class="desktop-portfolio__label">Client</th>
+                    <th class="desktop-portfolio__label">Compétences</th>
+                    <th class="desktop-portfolio__label">Année</th>
+                </tr>
+                <tr class="desktop-portfolio__item">
+                    <td class="desktop-portfolio__title">
+                        <a href="./template.html">Project title 1</a>
+                    </td>
+                    <td>Client 1</td>
+                    <td>Vue.js, JavaScript, WebSockets, Game Design, Narrative Design</td>
+                    <td>2022</td>
+                </tr>
+                <tr class="desktop-portfolio__item">
+                    <td class="desktop-portfolio__title">
+                        <a href="./template.html">Project title 2</a>
+                    </td>
+                    <td>Client 2</td>
+                    <td>React.js, JavaScript, WebSockets</td>
+                    <td>2021</td>
+                </tr>
+                <tr class="desktop-portfolio__item">
+                    <td class="desktop-portfolio__title">
+                        <a href="./template.html">Project title 3</a>
+                    </td>
+                    <td>Client 3</td>
+                    <td>JavaScript, UX Design</td>
+                    <td>2020</td>
+                </tr>
+            </table>
+        </section>
+        <!-- Desktop portfolio end -->
+        <!-- Footer start -->
+        <footer class="footer">
+            <ul class="footer__list">
+                <li class="footer__item">
+                    <span class="footer__label">Email</span>
+                    <a href="javascript:void(0)" class="footer__link">Link</a>
+                </li>
+                <li class="footer__separator"></li>
+                <li class="footer__item">
+                    <span class="footer__label">Réseaux sociaux</span>
+                    <a href="javascript:void(0)" class="footer__link">Link</a>
+                </li>
+            </ul>
+        </footer>
+        <!-- Footer end -->
+    </main>
+</body>
+
+</html>
