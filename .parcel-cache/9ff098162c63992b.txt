@@ -3,7 +3,7 @@
 52/home/rob/Lab/freelancer/dist/index.c2b3c8ae.css.map1662273130544479949 0
 56/home/rob/Lab/freelancer/dist/freelancer.59712999.js.map1662270997394452587 0
 51/home/rob/Lab/freelancer/dist/portfolio.a13e9a7a.js1662270997384452587 0
-37/home/rob/Lab/freelancer/package.json1662237584564024004 0
+37/home/rob/Lab/freelancer/package.json1662273707704487352 0
 35/home/rob/Lab/freelancer/.gitignore1662237646764024801 0
 42/home/rob/Lab/freelancer/src/template.html1662229210403916589 0
 45/home/rob/Lab/freelancer/src/styles/_app.scss1662236791264013828 0

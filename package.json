@@ -9,7 +9,7 @@
   "source": "src/index.html",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
-    "start": "parcel",
+    "start": "parcel & sass --watch styles/_app.scss styles/app.css",
     "build": "parcel build",
     "commit": "cz"
   },
