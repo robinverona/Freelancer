@@ -2,7 +2,6 @@
   "name": "freelancer",
   "version": "1.0.0",
   "description": "portfolio website template for freelancing ",
-  "main": "index.js",
   "author": "Robin Verona",
   "license": "MIT",
   "private": true,
@@ -10,12 +9,17 @@
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "start": "parcel & sass --watch src/styles/_app.scss src/styles/app.css",
-    "build": "parcel build",
+    "prebuild-dev": "shx rm -rf dist/*",
+    "build-dev": "parcel build ./index.html --no-optimize --public-url ./",
+    "prebuild": "shx rm -rf dist/*",
+    "build": "parcel build ./src/index.html --public-url ./",
+    "push-gh-pages": "push-dir --dir=dist --branch=gh-pages --cleanup --verbose",
     "commit": "cz"
   },
   "devDependencies": {
     "cz-conventional-changelog": "3.3.0",
-    "parcel": "latest"
+    "parcel": "latest",
+    "shx": "^0.3.2"
   },
   "dependencies": {
     "sass": "^1.54.8"
