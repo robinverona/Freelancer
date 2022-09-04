@@ -1,15 +1,15 @@
 10054
-48/home/rob/Lab/freelancer/dist/index.c2b3c8ae.css1662273130544479949 0
-52/home/rob/Lab/freelancer/dist/index.c2b3c8ae.css.map1662273130544479949 0
+48/home/rob/Lab/freelancer/dist/index.c2b3c8ae.css1662283751194616179 0
+52/home/rob/Lab/freelancer/dist/index.c2b3c8ae.css.map1662283751194616179 0
 56/home/rob/Lab/freelancer/dist/freelancer.59712999.js.map1662270997394452587 0
 51/home/rob/Lab/freelancer/dist/portfolio.a13e9a7a.js1662270997384452587 0
-37/home/rob/Lab/freelancer/package.json1662273707704487352 0
+37/home/rob/Lab/freelancer/package.json1662274470564497137 0
 35/home/rob/Lab/freelancer/.gitignore1662237646764024801 0
 42/home/rob/Lab/freelancer/src/template.html1662229210403916589 0
 45/home/rob/Lab/freelancer/src/styles/_app.scss1662236791264013828 0
-43/home/rob/Lab/freelancer/src/styles/app.css1662273130464479948 0
+43/home/rob/Lab/freelancer/src/styles/app.css1662283751124616178 0
 46/home/rob/Lab/freelancer/src/styles/components1662236784634013743 1
-39/home/rob/Lab/freelancer/src/about.html1662229219023916699 0
+39/home/rob/Lab/freelancer/src/about.html1662282505704600203 0
 50/home/rob/Lab/freelancer/node_modules/resolve-from1662237265634019913 1
 62/home/rob/Lab/freelancer/node_modules/nth-check/lib/compile.js1662237260137000000 0
 60/home/rob/Lab/freelancer/node_modules/nth-check/lib/parse.js1662237260137000000 0
@@ -390,7 +390,7 @@
 58/home/rob/Lab/freelancer/node_modules/@commitlint/load/lib1662237265784019915 1
 76/home/rob/Lab/freelancer/node_modules/caniuse-lite/data/features/bloburls.js1662237258930000000 0
 87/home/rob/Lab/freelancer/node_modules/caniuse-lite/data/features/input-file-multiple.js1662237258930000000 0
-46/home/rob/Lab/freelancer/src/styles/_core.scss1662272075394466415 0
+46/home/rob/Lab/freelancer/src/styles/_core.scss1662280527574574830 0
 73/home/rob/Lab/freelancer/node_modules/caniuse-lite/data/features/fetch.js1662237258930000000 0
 83/home/rob/Lab/freelancer/node_modules/caniuse-lite/data/features/contenteditable.js1662237258930000000 0
 80/home/rob/Lab/freelancer/node_modules/caniuse-lite/data/features/css-rrggbbaa.js1662237258930000000 0
@@ -453,7 +453,7 @@
 64/home/rob/Lab/freelancer/node_modules/@trysound/sax/package.json1662237259203999000 0
 60/home/rob/Lab/freelancer/node_modules/util-deprecate/node.js1654847445552999000 0
 62/home/rob/Lab/freelancer/node_modules/util-deprecate/README.md1654847445552999000 0
-40/home/rob/Lab/freelancer/dist/about.html1662270997394452587 0
+40/home/rob/Lab/freelancer/dist/about.html1662282505784600204 0
 63/home/rob/Lab/freelancer/node_modules/util-deprecate/browser.js1654847445552999000 0
 52/home/rob/Lab/freelancer/node_modules/util-deprecate1662237265664019913 1
 70/home/rob/Lab/freelancer/node_modules/picocolors/picocolors.browser.js1654847450309000000 0
@@ -980,7 +980,7 @@
 57/home/rob/Lab/freelancer/node_modules/glob-parent/LICENSE1654847454082000000 0
 75/home/rob/Lab/freelancer/node_modules/cosmiconfig-typescript-loader/LICENCE1662237260946000000 0
 85/home/rob/Lab/freelancer/node_modules/cosmiconfig-typescript-loader/dist/cjs/index.js1662237260946000000 0
-58/home/rob/Lab/freelancer/src/styles/components/_about.scss1662272379604470317 0
+58/home/rob/Lab/freelancer/src/styles/components/_about.scss1662282432934599270 0
 76/home/rob/Lab/freelancer/node_modules/cosmiconfig-typescript-loader/dist/cjs1662237266194019920 1
 78/home/rob/Lab/freelancer/node_modules/cosmiconfig-typescript-loader/dist/types1662237266194019920 1
 80/home/rob/Lab/freelancer/node_modules/cosmiconfig-typescript-loader/package.json1662237260946000000 0
@@ -1970,7 +1970,7 @@
 62/home/rob/Lab/freelancer/node_modules/lodash/_createPartial.js1654847442680000000 0
 54/home/rob/Lab/freelancer/node_modules/lodash/_isKey.js1654847442680000000 0
 58/home/rob/Lab/freelancer/node_modules/lodash/startsWith.js1654847442680000000 0
-60/home/rob/Lab/freelancer/src/styles/components/_project.scss1662272972124477917 0
+60/home/rob/Lab/freelancer/src/styles/components/_project.scss1662283751074616178 0
 73/home/rob/Lab/freelancer/node_modules/ajv/dist/vocabularies/draft7.js.map1654847469664999000 0
 58/home/rob/Lab/freelancer/node_modules/lodash/_realNames.js1654847442680000000 0
 73/home/rob/Lab/freelancer/node_modules/typescript/lib/tsserverlibrary.d.ts1662237261150000000 0
@@ -2405,7 +2405,7 @@
 59/home/rob/Lab/freelancer/node_modules/lodash/_setToPairs.js1654847442680000000 0
 83/home/rob/Lab/freelancer/node_modules/caniuse-lite/data/features/media-attribute.js1662237258930000000 0
 51/home/rob/Lab/freelancer/node_modules/lodash/now.js1654847442680000000 0
-39/home/rob/Lab/freelancer/dist/portfolio1662273044184478841 1
+39/home/rob/Lab/freelancer/dist/portfolio1662282902244605290 1
 56/home/rob/Lab/freelancer/node_modules/lodash/toString.js1654847442680000000 0
 55/home/rob/Lab/freelancer/node_modules/lodash/_getTag.js1654847442680000000 0
 58/home/rob/Lab/freelancer/node_modules/lodash/lowerFirst.js1654847442680000000 0
@@ -2835,7 +2835,7 @@
 59/home/rob/Lab/freelancer/node_modules/mdn-data/css/index.js1654847465053999000 0
 60/home/rob/Lab/freelancer/node_modules/timsort/src/timsort.js1654847462584000000 0
 91/home/rob/Lab/freelancer/node_modules/ansi-escapes/node_modules/type-fest/source/merge.d.ts1654847456834000000 0
-47/home/rob/Lab/freelancer/src/styles/app.css.map1662273130464479948 0
+47/home/rob/Lab/freelancer/src/styles/app.css.map1662283751124616178 0
 80/home/rob/Lab/freelancer/node_modules/ansi-escapes/node_modules/type-fest/source1662237265774019914 1
 93/home/rob/Lab/freelancer/node_modules/ansi-escapes/node_modules/type-fest/ts41/utilities.d.ts1654847456834000000 0
 87/home/rob/Lab/freelancer/node_modules/ansi-escapes/node_modules/type-fest/ts41/get.d.ts1654847456834000000 0
@@ -4664,7 +4664,7 @@
 91/home/rob/Lab/freelancer/node_modules/@swc/helpers/src/_class_static_private_method_get.mjs1662237258480999000 0
 59/home/rob/Lab/freelancer/node_modules/detect-indent/license1654847468200999000 0
 75/home/rob/Lab/freelancer/node_modules/global-prefix/node_modules/.bin/which1662237267074019931 0
-62/home/rob/Lab/freelancer/src/styles/components/_portfolio.scss1662234114723979496 0
+62/home/rob/Lab/freelancer/src/styles/components/_portfolio.scss1662283135674608284 0
 72/home/rob/Lab/freelancer/node_modules/@swc/helpers/src/_create_super.mjs1662237258480999000 0
 58/home/rob/Lab/freelancer/node_modules/typescript/README.md1662237261150000000 0
 96/home/rob/Lab/freelancer/node_modules/rxjs/dist/types/internal/operators/defaultIfEmpty.d.ts.map1662237261283999000 0
@@ -4721,7 +4721,7 @@
 65/home/rob/Lab/freelancer/node_modules/@swc/helpers/src/_throw.mjs1662237258480999000 0
 54/home/rob/Lab/freelancer/node_modules/@swc/helpers/src1662237265764019914 1
 64/home/rob/Lab/freelancer/node_modules/css-tree/lib/syntax/pseudo1662237266334019922 1
-29/home/rob/Lab/freelancer/dist1662273130544479949 1
+29/home/rob/Lab/freelancer/dist1662283751194616179 1
 100/home/rob/Lab/freelancer/node_modules/cz-conventional-changelog/node_modules/supports-color/index.js1654847445874000000 0
 50/home/rob/Lab/freelancer/node_modules/@swc/helpers1662237265164019907 1
 68/home/rob/Lab/freelancer/node_modules/rxjs/dist/types/index.d.ts.map1662237261283999000 0
@@ -4766,7 +4766,7 @@
 46/home/rob/Lab/freelancer/node_modules/bl/bl.js1662237261729000000 0
 79/home/rob/Lab/freelancer/node_modules/@swc/helpers/src/_array_without_holes.mjs1662237258480999000 0
 56/home/rob/Lab/freelancer/node_modules/bl/test/convert.js1662237261729000000 0
-40/home/rob/Lab/freelancer/dist/index.html1662271961104464949 0
+40/home/rob/Lab/freelancer/dist/index.html1662281070004581788 0
 76/home/rob/Lab/freelancer/node_modules/readable-stream/experimentalWarning.js1654847445016000000 0
 70/home/rob/Lab/freelancer/node_modules/external-editor/example_async.js1654847456611000000 0
 62/home/rob/Lab/freelancer/node_modules/lodash/fp/reduceRight.js1654847442680000000 0
@@ -4989,7 +4989,7 @@
 54/home/rob/Lab/freelancer/node_modules/defaults/test.js1654847452711999000 0
 65/home/rob/Lab/freelancer/node_modules/@parcel/transformer-raw/lib1662237265724019914 1
 56/home/rob/Lab/freelancer/node_modules/picomatch/index.js1654847455362999000 0
-39/home/rob/Lab/freelancer/src/index.html1662271961024464948 0
+39/home/rob/Lab/freelancer/src/index.html1662281069824581785 0
 102/home/rob/Lab/freelancer/node_modules/rxjs/dist/types/internal/operators/distinctUntilChanged.d.ts.map1662237261283999000 0
 52/home/rob/Lab/freelancer/node_modules/@parcel/plugin1662237265154019907 1
 70/home/rob/Lab/freelancer/node_modules/sass/types/legacy/exception.d.ts1662237252594000000 0
@@ -7495,7 +7495,7 @@
 96/home/rob/Lab/freelancer/node_modules/rxjs/dist/esm5/internal/observable/bindNodeCallback.js.map1662237261283999000 0
 54/home/rob/Lab/freelancer/node_modules/lmdb/src/dbi.cpp1662237258565000000 0
 88/home/rob/Lab/freelancer/node_modules/rxjs/dist/esm5/internal/observable/generate.js.map1662237261283999000 0
-34/home/rob/Lab/freelancer/README.md1662235736174000294 0
+34/home/rob/Lab/freelancer/README.md1662273847244489142 0
 84/home/rob/Lab/freelancer/node_modules/rxjs/dist/esm5/internal/observable/interval.js1662237261283999000 0
 49/home/rob/Lab/freelancer/node_modules/findup-sync1662237265394019910 1
 78/home/rob/Lab/freelancer/node_modules/ajv/lib/vocabularies/applicator/anyOf.ts1654847469664999000 0
@@ -7738,7 +7738,7 @@
 61/home/rob/Lab/freelancer/node_modules/lodash/fp/complement.js1654847442680000000 0
 76/home/rob/Lab/freelancer/node_modules/@swc/helpers/src/_array_with_holes.mjs1662237258480999000 0
 82/home/rob/Lab/freelancer/node_modules/rxjs/dist/esm5/internal/operators/map.js.map1662237261283999000 0
-69/home/rob/Lab/freelancer/src/styles/components/_curated-projects.scss1662271826924463228 0
+69/home/rob/Lab/freelancer/src/styles/components/_curated-projects.scss1662281194224583381 0
 77/home/rob/Lab/freelancer/node_modules/caniuse-lite/data/features/wake-lock.js1662237258930000000 0
 65/home/rob/Lab/freelancer/node_modules/css-select/lib/procedure.js1654847463049000000 0
 86/home/rob/Lab/freelancer/node_modules/rxjs/dist/esm5/internal/operators/materialize.js1662237261283999000 0
@@ -8178,7 +8178,7 @@
 68/home/rob/Lab/freelancer/node_modules/@jridgewell/trace-mapping/dist1662237265704019914 1
 94/home/rob/Lab/freelancer/node_modules/@parcel/package-manager/test/fixtures/has-foo/subpackage1662237266444019923 1
 80/home/rob/Lab/freelancer/node_modules/rxjs/dist/cjs/internal/observable/never.js1662237261283999000 0
-63/home/rob/Lab/freelancer/src/styles/components/_navigation.scss1662271499554459028 0
+63/home/rob/Lab/freelancer/src/styles/components/_navigation.scss1662280284864571717 0
 85/home/rob/Lab/freelancer/node_modules/rxjs/dist/esm5/internal/operators/repeat.js.map1662237261283999000 0
 52/home/rob/Lab/freelancer/node_modules/csso/README.md1654847464061000000 0
 87/home/rob/Lab/freelancer/node_modules/rxjs/dist/cjs/internal/observable/bindCallback.js1662237261283999000 0
@@ -8335,7 +8335,7 @@
 78/home/rob/Lab/freelancer/node_modules/rxjs/dist/cjs/internal/operators/find.js1662237261283999000 0
 87/home/rob/Lab/freelancer/node_modules/rxjs/dist/cjs/internal/operators/switchMap.js.map1662237261283999000 0
 84/home/rob/Lab/freelancer/node_modules/rxjs/dist/cjs/internal/operators/sample.js.map1662237261283999000 0
-50/home/rob/Lab/freelancer/dist/portfolio/index.html1662272209484468135 0
+50/home/rob/Lab/freelancer/dist/portfolio/index.html1662282902244605290 0
 91/home/rob/Lab/freelancer/node_modules/rxjs/dist/cjs/internal/operators/sequenceEqual.js.map1662237261283999000 0
 84/home/rob/Lab/freelancer/node_modules/rxjs/dist/cjs/internal/operators/repeat.js.map1662237261283999000 0
 84/home/rob/Lab/freelancer/node_modules/rxjs/dist/esm/internal/operators/zipAll.js.map1662237261283999000 0
@@ -8457,7 +8457,7 @@
 83/home/rob/Lab/freelancer/node_modules/rxjs/dist/esm/internal/operators/concatMap.js1662237261283999000 0
 85/home/rob/Lab/freelancer/node_modules/rxjs/dist/cjs/internal/operators/exhaust.js.map1662237261283999000 0
 80/home/rob/Lab/freelancer/node_modules/rxjs/dist/cjs/internal/operators/single.js1662237261283999000 0
-49/home/rob/Lab/freelancer/src/portfolio/index.html1662272209414468134 0
+49/home/rob/Lab/freelancer/src/portfolio/index.html1662282902164605289 0
 86/home/rob/Lab/freelancer/node_modules/@parcel/runtime-js/src/helpers/get-worker-url.js1662237255028000000 0
 62/home/rob/Lab/freelancer/node_modules/csso/lib/clean/Atrule.js1654847464061000000 0
 69/home/rob/Lab/freelancer/node_modules/caniuse-lite/data/regions/BN.js1662237258930000000 0
@@ -9754,7 +9754,7 @@
 78/home/rob/Lab/freelancer/node_modules/@parcel/source-map/parcel_sourcemap_node1662237265804019915 1
 72/home/rob/Lab/freelancer/node_modules/@parcel/utils/test/input/sourcemap1662237266294019921 1
 87/home/rob/Lab/freelancer/node_modules/@parcel/core/test/fixtures/custom-format-mismatch1662237266324019922 1
-59/home/rob/Lab/freelancer/src/styles/components/_footer.scss1662273130334479946 0
+59/home/rob/Lab/freelancer/src/styles/components/_footer.scss1662282112984595166 0
 100/home/rob/Lab/freelancer/node_modules/@parcel/core/test/fixtures/custom-format-mismatch/package.json1662237252625000000 0
 81/home/rob/Lab/freelancer/node_modules/@parcel/core/test/fixtures/parcel/yarn.lock1662237252625000000 0
 72/home/rob/Lab/freelancer/node_modules/utility-types/dist/mapped-types.js1662237258852999000 0

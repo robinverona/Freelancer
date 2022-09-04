@@ -140,125 +140,6 @@ $sans: 'Inter', sans-serif;
 
 }
 
-// Sizes
-$spacing-separator: 24px;
-
-$margin-none: 0;
-$margin-sm: 5;
-$margin-base: 15;
-$margin-lg: 30;
-$margin-xl: 50;
-$margin-xxl: 100;
-
-$padding-xxl: 100;
-$padding-xl: 50;
-$padding-lg: 30;
-$padding-base: 15;
-$padding-sm: 5;
-$padding-none: 0;
-
-@mixin make-paddings($class, $padding) {
-    .p-#{$class}-#{$padding} {
-        padding: $padding * 1px !important;
-    }
-
-    .pl-#{$class}-#{$padding} {
-        padding-left: $padding * 1px !important;
-    }
-
-    .pr-#{$class}-#{$padding} {
-        padding-right: $padding * 1px !important;
-    }
-
-    .pt-#{$class}-#{$padding} {
-        padding-top: $padding * 1px !important;
-    }
-
-    .pb-#{$class}-#{$padding} {
-        padding-bottom: $padding * 1px !important;
-    }
-
-    .pv-#{$class}-#{$padding} {
-        @extend .pt-#{$class}-#{$padding};
-        @extend .pb-#{$class}-#{$padding};
-    }
-
-    .ph-#{$class}-#{$padding} {
-        @extend .pl-#{$class}-#{$padding};
-        @extend .pr-#{$class}-#{$padding};
-    }
-}
-
-@mixin make-margins($class, $margin) {
-    .m-#{$class}-#{$margin} {
-        margin: $margin * 1px !important;
-    }
-
-    .ml-#{$class}-#{$margin} {
-        margin-left: $margin * 1px !important;
-    }
-
-    .mr-#{$class}-#{$margin} {
-        margin-right: $margin * 1px !important;
-    }
-
-    .mt-#{$class}-#{$margin} {
-        margin-top: $margin * 1px !important;
-    }
-
-    .mb-#{$class}-#{$margin} {
-        margin-bottom: $margin * 1px !important;
-    }
-
-    .mv-#{$class}-#{$margin} {
-        @extend .mt-#{$class}-#{$margin};
-        @extend .mb-#{$class}-#{$margin};
-    }
-
-    .mh-#{$class}-#{$margin} {
-        @extend .ml-#{$class}-#{$margin};
-        @extend .mr-#{$class}-#{$margin};
-    }
-}
-
-@mixin make-all-paddings($class) {
-    @include make-paddings($class, $padding-none);
-    @include make-paddings($class, $padding-sm);
-    @include make-paddings($class, $padding-base);
-    @include make-paddings($class, $padding-lg);
-    @include make-paddings($class, $padding-xl);
-    @include make-paddings($class, $padding-xxl);
-}
-
-@mixin make-all-margins($class) {
-    @include make-margins($class, $margin-none);
-    @include make-margins($class, $margin-sm);
-    @include make-margins($class, $margin-base);
-    @include make-margins($class, $margin-lg);
-    @include make-margins($class, $margin-xl);
-    @include make-margins($class, $margin-xxl);
-}
-
-
-@include make-all-paddings(xs);
-@include make-all-margins(xs);
-
-@media (min-width: $screen-sm-min) {
-    @include make-all-paddings(sm);
-    @include make-all-margins(sm);
-}
-
-@media (min-width: $screen-md-min) {
-    @include make-all-paddings(md);
-    @include make-all-margins(md);
-}
-
-@media (min-width: $screen-lg-min) {
-    @include make-all-paddings(lg);
-    @include make-all-margins(lg);
-}
-
-
 /* Utils */
 
 @mixin reset-list {
@@ -267,6 +148,23 @@ $padding-none: 0;
     list-style: none;
 }
 
+/* Spacing */
+
+$spacing-separator: 24px;
+
+$mobile-spacing-xs: 20px;
+$mobile-spacing-sm: 30px;
+$mobile-spacing-reg: 40px;
+$mobile-spacing-lg: 100px;
+$mobile-spacing-xl: 60px;
+$mobile-spacing-2xl: 120px;
+
+$spacing-xs: 40px;
+$spacing-sm: 50px;
+$spacing-reg: 80px;
+$spacing-lg: 100px;
+$spacing-xl: 120px;
+$spacing-2xl: 200px;
 
 /* --------------------- FUNCTIONS -------------------- */
 
@@ -300,6 +198,12 @@ $padding-none: 0;
 }
 
 /* --------------------- GLOBAL -------------------- */
+#app {
+    margin: 0 24px;
+    @include for-tablet-portrait-up {
+        margin: 0 100px;
+    }
+}
 
 html,
 body {
@@ -324,4 +228,12 @@ a {
 
 h1 {
     @include text-xl;
+    margin-top: 120px;
+    margin-bottom: 60px;
+    @include for-tablet-portrait-up {
+        margin-top: 200px;
+        margin-bottom: 120px;
+
+    }
+
 }

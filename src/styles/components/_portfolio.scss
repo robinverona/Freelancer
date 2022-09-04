@@ -8,7 +8,7 @@
 }
 
 .mobile-portfolio__list {
-    column-gap: $spacing-separator;
+    column-gap: 40px;
     column-fill: initial;
     column-count: 1;
     @include reset-list;
@@ -20,10 +20,32 @@
 .mobile-portfolio__item {
     display: inline-block; /* Fix the misalignment of items */
     vertical-align: top; /* Keep the item on the very top */
+    margin: 40px 0;
 }
 
 .mobile-portfolio__image {
     backface-visibility: hidden; /* Remove Image flickering on hover */
+}
+
+.mobile-portfolio__overlay-title {
+    border-bottom: $primary-text-color 1px solid;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+.mobile-portfolio__overlay-infos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @include text-base;
+    padding-top: 20px;
+    margin: 0;
+
+    @include for-tablet-landscape-up {
+        padding-top: 40px;
+        margin: 0;
+    }
 }
 
 
@@ -43,13 +65,23 @@
 }
 
 .desktop-portfolio__label {
-    @include text-sm;
+    @include text-xs;
     text-transform: uppercase;
-
+    @include for-tablet-landscape-up {
+        padding-bottom: 20px;
+    }
 }
 
 .desktop-portfolio td, th {
     border-bottom: 1px solid $dark;
     text-align: left;
     // position: relative;
+    @include for-tablet-landscape-up {
+        padding: 50px 0;
+    }
+}
+
+
+.desktop-portfolio__title {
+    @include text-lg;
 }

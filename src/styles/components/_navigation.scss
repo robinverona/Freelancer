@@ -7,7 +7,11 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    padding-top: 40px;
     @include text-sm;
+    @include for-tablet-portrait-up {
+        padding-top: 100px;
+    }
 
 }
 
@@ -21,6 +25,12 @@
     }
 }
 
+.navbar__item {
+    margin: 0 20px;
+    &:last-child {
+        margin-right: 0;
+    }
+}
 
 
 // MOBILE MENU SIDEBAR 
@@ -55,6 +65,10 @@
         width: 0;
         padding: 0
     }
+
+    & a {
+        color: $secondary-text-color;
+    }
 }
 
 .sidebar-header__brand {
@@ -80,7 +94,9 @@
     padding-top: 2.5rem;
     padding-bottom: 3.125rem;
     // background-color: red;
-    border-bottom: $secondary-text-color solid 1px;   
+    border-bottom: $secondary-text-color solid 1px;
+    color: $secondary-text-color;
+
     &:last-of-type {
         border-bottom: none;
     }
@@ -102,7 +118,12 @@
     display: flex;
     flex-direction: column;
     @include text-lg;
-    text-transform: lowercase
+    text-transform: lowercase;
+    color: $secondary-text-color;
+    & a {
+        color: $secondary-text-color;
+    }
+
 }
 
 .sidebar-footer__label {
