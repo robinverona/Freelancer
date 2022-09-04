@@ -99,6 +99,10 @@ h1 {
   }
 }
 
+.sidebar__button {
+  cursor: pointer;
+}
+
 .navbar__list {
   display: flex;
   justify-content: space-around;
@@ -201,9 +205,21 @@ h1 {
 .sidebar__item {
   width: 100%;
   padding-top: 2.5rem;
-  padding-bottom: 3.125rem;
+  padding-bottom: 50px;
   border-bottom: hsl(222deg, 100%, 98%) solid 1px;
   color: hsl(222deg, 100%, 98%);
+  font-style: normal;
+  font-size: 64px;
+  line-height: 77px;
+  letter-spacing: -0.03em;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+@media (max-width: 640px) {
+  .sidebar__item {
+    font-size: 40px;
+    line-height: 48.41px;
+  }
 }
 .sidebar__item:last-of-type {
   border-bottom: none;
@@ -231,6 +247,7 @@ h1 {
   text-transform: capitalize;
   text-transform: lowercase;
   color: hsl(222deg, 100%, 98%);
+  margin-bottom: 40px;
 }
 @media (max-width: 640px) {
   .sidebar-footer__item {
@@ -238,7 +255,11 @@ h1 {
     line-height: 29.05px;
   }
 }
+.sidebar-footer__item:last-of-type {
+  margin-bottom: 0;
+}
 .sidebar-footer__item a {
+  margin-top: 20px;
   color: hsl(222deg, 100%, 98%);
 }
 
@@ -251,6 +272,8 @@ h1 {
   /* identical to box height, or 217% */
   letter-spacing: -0.03em;
   text-transform: uppercase;
+  padding-bottom: 20px;
+  border-bottom: hsl(222deg, 100%, 98%) solid 1px;
 }
 @media (max-width: 640px) {
   .sidebar-footer__label {

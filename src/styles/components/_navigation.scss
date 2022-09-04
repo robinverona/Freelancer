@@ -15,6 +15,10 @@
 
 }
 
+.sidebar__button {
+    cursor: pointer;
+}
+
 .navbar__list {
     display: flex;
     justify-content: space-around;
@@ -94,11 +98,11 @@
 .sidebar__item {
     width: 100%;
     padding-top: 2.5rem;
-    padding-bottom: 3.125rem;
+    padding-bottom: 50px;
     // background-color: red;
     border-bottom: $secondary-text-color solid 1px;
     color: $secondary-text-color;
-
+    @include text-xl;
     &:last-of-type {
         border-bottom: none;
     }
@@ -122,7 +126,12 @@
     @include text-lg;
     text-transform: lowercase;
     color: $secondary-text-color;
+    margin-bottom: 40px;
+    &:last-of-type {
+        margin-bottom: 0;
+    }
     & a {
+        margin-top: 20px;
         color: $secondary-text-color;
     }
 
@@ -131,6 +140,8 @@
 .sidebar-footer__label {
     @include text-xs;
     text-transform: uppercase;
+    padding-bottom: 20px;
+    border-bottom: $secondary-text-color solid 1px;
 
 }
 
