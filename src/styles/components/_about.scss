@@ -34,6 +34,10 @@
     border-bottom: $primary-text-color 1px solid;
 }
 
+.about .skills__item {
+    @include text-sm;
+}
+
 .about .skills__title, .details__label {
     @include for-phone-only {
         display: none;
@@ -54,4 +58,8 @@
 
 .about .details {
     flex-grow: 3;
+}
+
+.about .details__text {
+    @include text-lg;
 }

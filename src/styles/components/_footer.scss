@@ -23,7 +23,6 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        background-color: slategrey;
     }
 }
 
@@ -35,7 +34,6 @@
 
     @include for-tablet-portrait-up {
         // width: auto;
-        background-color: lightcoral;
         margin: 10px // justify-content: space-between;
             // align-items: center;
 

@@ -824,14 +824,41 @@ img {
 
 a {
   text-decoration: none;
+  color: hsl(225deg, 7%, 12%);
+}
+
+h1 {
+  font-style: normal;
+  font-size: 64px;
+  line-height: 77px;
+  letter-spacing: -0.03em;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+@media (max-width: 640px) {
+  h1 {
+    font-size: 40px;
+    line-height: 48.41px;
+  }
 }
 
 .navbar, .sidebar-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: skyblue;
   width: 100%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.03em;
+  text-transform: capitalize;
+}
+@media (max-width: 640px) {
+  .navbar, .sidebar-header {
+    font-size: 12px;
+    line-height: 26px;
+  }
 }
 
 .navbar__list {
@@ -879,6 +906,21 @@ a {
 .sidebar--hidden {
   width: 0;
   padding: 0;
+}
+
+.sidebar-header__brand {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.03em;
+  text-transform: capitalize;
+}
+@media (max-width: 640px) {
+  .sidebar-header__brand {
+    font-size: 12px;
+    line-height: 26px;
+  }
 }
 
 .sidebar__list {
@@ -997,7 +1039,6 @@ a {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: slategrey;
   }
 }
 
@@ -1020,7 +1061,6 @@ a {
 }
 @media (min-width: 640px) {
   .footer__item {
-    background-color: lightcoral;
     margin: 10px;
   }
 }
@@ -1091,6 +1131,40 @@ a {
   backface-visibility: hidden; /* Remove Image flickering on hover */
 }
 
+.curated-projects__overlay-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -0.03em;
+  text-transform: capitalize;
+  border-bottom: hsl(225deg, 7%, 12%) 1px solid;
+}
+@media (max-width: 640px) {
+  .curated-projects__overlay-title {
+    font-size: 24px;
+    line-height: 29.05px;
+  }
+}
+
+.curated-projects__overlay-infos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: -0.03em;
+  text-transform: capitalize;
+}
+@media (max-width: 640px) {
+  .curated-projects__overlay-infos {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
 .project__overview {
   display: flex;
   flex-direction: column;
@@ -1118,6 +1192,25 @@ a {
     font-size: 12px;
     line-height: 26px;
   }
+}
+
+.project__pitch, .project__context, .project__skillset {
+  flex-grow: 1;
+}
+@media (min-width: 768px) {
+  .project__pitch, .project__context, .project__skillset {
+    width: 24rem;
+  }
+}
+
+.skillset__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  list-style: none;
+}
+.skillset__list .skillset__item {
+  display: inline;
 }
 
 .project__gallery {
@@ -1252,6 +1345,21 @@ a {
   }
 }
 
+.about .skills__item {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.03em;
+  text-transform: capitalize;
+}
+@media (max-width: 640px) {
+  .about .skills__item {
+    font-size: 12px;
+    line-height: 26px;
+  }
+}
+
 @media (max-width: 640px) {
   .about .skills__title, .details__label {
     display: none;
@@ -1272,6 +1380,21 @@ a {
 
 .about .details {
   flex-grow: 3;
+}
+
+.about .details__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -0.03em;
+  text-transform: capitalize;
+}
+@media (max-width: 640px) {
+  .about .details__text {
+    font-size: 24px;
+    line-height: 29.05px;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */

@@ -990,15 +990,44 @@ img {
 }
 
 a {
+  color: #1c1e21;
   text-decoration: none;
+}
+
+h1 {
+  letter-spacing: -.03em;
+  text-transform: capitalize;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 77px;
+}
+
+@media (max-width: 640px) {
+  h1 {
+    font-size: 40px;
+    line-height: 48.41px;
+  }
 }
 
 .navbar, .sidebar-header {
   width: 100%;
-  background-color: #87ceeb;
+  letter-spacing: -.03em;
+  text-transform: capitalize;
   justify-content: space-between;
   align-items: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
   display: flex;
+}
+
+@media (max-width: 640px) {
+  .navbar, .sidebar-header {
+    font-size: 12px;
+    line-height: 26px;
+  }
 }
 
 .navbar__list {
@@ -1047,6 +1076,22 @@ a {
 .sidebar--hidden {
   width: 0;
   padding: 0;
+}
+
+.sidebar-header__brand {
+  letter-spacing: -.03em;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+@media (max-width: 640px) {
+  .sidebar-header__brand {
+    font-size: 12px;
+    line-height: 26px;
+  }
 }
 
 .sidebar__list {
@@ -1166,7 +1211,6 @@ a {
 @media (min-width: 640px) {
   .footer__list {
     width: 100%;
-    background-color: #708090;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -1195,7 +1239,6 @@ a {
 
 @media (min-width: 640px) {
   .footer__item {
-    background-color: #f08080;
     margin: 10px;
   }
 }
@@ -1267,6 +1310,42 @@ a {
   backface-visibility: hidden;
 }
 
+.curated-projects__overlay-title {
+  letter-spacing: -.03em;
+  text-transform: capitalize;
+  border-bottom: 1px solid #1c1e21;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+}
+
+@media (max-width: 640px) {
+  .curated-projects__overlay-title {
+    font-size: 24px;
+    line-height: 29.05px;
+  }
+}
+
+.curated-projects__overlay-infos {
+  letter-spacing: -.03em;
+  text-transform: capitalize;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px;
+  display: flex;
+}
+
+@media (max-width: 640px) {
+  .curated-projects__overlay-infos {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
 .project__overview {
   flex-direction: column;
   display: flex;
@@ -1296,6 +1375,26 @@ a {
     font-size: 12px;
     line-height: 26px;
   }
+}
+
+.project__pitch, .project__context, .project__skillset {
+  flex-grow: 1;
+}
+
+@media (min-width: 768px) {
+  .project__pitch, .project__context, .project__skillset {
+    width: 24rem;
+  }
+}
+
+.skillset__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.skillset__list .skillset__item {
+  display: inline;
 }
 
 .project__gallery {
@@ -1435,6 +1534,22 @@ a {
     font-size: 12px;
     line-height: 26px;
   }
+}
+
+.about .skills__item {
+  letter-spacing: -.03em;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+@media (max-width: 640px) {
+  .about .skills__item {
+    font-size: 12px;
+    line-height: 26px;
+  }
 
   .about .skills__title, .details__label {
     display: none;
@@ -1453,6 +1568,22 @@ a {
 
 .about .details {
   flex-grow: 3;
+}
+
+.about .details__text {
+  letter-spacing: -.03em;
+  text-transform: capitalize;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+}
+
+@media (max-width: 640px) {
+  .about .details__text {
+    font-size: 24px;
+    line-height: 29.05px;
+  }
 }
 
 /*# sourceMappingURL=index.c2b3c8ae.css.map */

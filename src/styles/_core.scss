@@ -319,4 +319,9 @@ img {
 
 a {
     text-decoration: none;
+    color: $primary-text-color
+}
+
+h1 {
+    @include text-xl;
 }
