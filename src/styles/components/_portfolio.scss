@@ -66,14 +66,15 @@
 
 .desktop-portfolio__label {
     @include text-xs;
+    border-top: none!important;
     text-transform: uppercase;
     @include for-tablet-landscape-up {
         padding-bottom: 20px;
     }
 }
 
-.desktop-portfolio td, th {
-    border-bottom: 1px solid $dark;
+.desktop-portfolio td, .desktop-portfolio th {
+    border-top: 1px solid $dark;
     text-align: left;
     // position: relative;
     @include for-tablet-landscape-up {
@@ -84,4 +85,6 @@
 
 .desktop-portfolio__title {
     @include text-lg;
+    border-top: 1px solid $dark;
+
 }

@@ -672,6 +672,7 @@ h1 {
   text-transform: capitalize;
   /* identical to box height, or 217% */
   letter-spacing: -0.03em;
+  border-top: none !important;
   text-transform: uppercase;
 }
 @media (max-width: 640px) {
@@ -686,12 +687,12 @@ h1 {
   }
 }
 
-.desktop-portfolio td, th {
-  border-bottom: 1px solid hsl(225deg, 7%, 12%);
+.desktop-portfolio td, .desktop-portfolio th {
+  border-top: 1px solid hsl(225deg, 7%, 12%);
   text-align: left;
 }
 @media (min-width: 768px) {
-  .desktop-portfolio td, th {
+  .desktop-portfolio td, .desktop-portfolio th {
     padding: 50px 0;
   }
 }
@@ -703,6 +704,7 @@ h1 {
   line-height: 48px;
   letter-spacing: -0.03em;
   text-transform: capitalize;
+  border-top: 1px solid hsl(225deg, 7%, 12%);
 }
 @media (max-width: 640px) {
   .desktop-portfolio__title {
