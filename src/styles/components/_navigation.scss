@@ -66,6 +66,7 @@
     &--open {
         width: 100%;
         padding: 24px;
+        padding-top: 0;
     }
 
     &--hidden {
@@ -77,6 +78,10 @@
         color: $secondary-text-color;
     }
 }
+
+// .sidebar-header {
+//     padding-top: 0;
+// }
 
 .sidebar-header__brand {
     @include text-sm;
