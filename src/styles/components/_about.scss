@@ -34,9 +34,11 @@
 }
 
 .about .details__title, .details__label, .skills__title {
-    @include text-sm;
+    @include text-xs;
     text-transform: uppercase;
     border-bottom: $primary-text-color 1px solid;
+    padding-bottom: 24px;
+
 }
 
 .about .skills__item {
