@@ -9,4 +9,6 @@ After having cloned the project, install dependencies with `yarn install`, now y
 - add animations & micro interactions 
 - improve accessibility 
 - improve semantics 
-- add functional tests 
+- improve seo
+- improve performances 
+- add functional tests (optional) 
