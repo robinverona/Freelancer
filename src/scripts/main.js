@@ -1,3 +1,38 @@
+import barba from '@barba/core';
+import gsap from "gsap";
+
+barba.init({
+  transitions: [{
+    name: 'opacity-transition',
+    leave(data) {
+      return gsap.to(data.current.container, {
+        opacity: 0
+      });
+    },
+    enter(data) {
+      return gsap.from(data.next.container, {
+        opacity: 0
+      });
+    }
+  }]
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 const mobileMenu = document.querySelector('.sidebar');
 const mobileMenuButton = document.querySelector('#sidebar__button--open');
 const mobileCloseMenuButton = document.querySelector('#sidebar-header__button--close');

@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="styles/app.css">
 </head>
 
-<body>
+<body  data-barba="wrapper">
     <div id="app">
         <!-- Mobile menu sidebar start -->
         <nav class="sidebar sidebar--hidden">
@@ -64,7 +64,7 @@
         </header>
         <!-- Navbar end -->
         <!-- Project start -->
-        <main class="project">
+        <main class="project" data-barba="container" data-barba-namespace="single">
             <h1>Project title</h1>
             <section class="project__overview">
                 <div class="project__pitch">
@@ -115,7 +115,7 @@
         </footer>
         <!-- Footer end -->
     </div>
-    <script src="scripts/index.js"></script>
+    <script src="scripts/main.js" type="module"></script>
 
 </body>
 
