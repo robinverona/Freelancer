@@ -10,7 +10,8 @@
 </head>
 
 <body data-barba="wrapper">
-    <main id="app">
+    <div id="app" data-barba="container" data-barba-namespace="about">    
+        <!-- <main id="app" > -->
         <!-- Mobile menu sidebar start -->
         <nav class="sidebar sidebar--hidden">
 
@@ -63,7 +64,8 @@
         </header>
         <!-- Navbar end -->
         <!-- Curated projects start -->
-        <section class="about" data-barba="container" data-barba-namespace="about">
+
+        <section class="about">
             <h1 class="about__title">
                 About
             </h1>
@@ -148,6 +150,7 @@
                 </li>
             </ul>
         </section>
+
         <!-- Curated projects end -->
         <!-- Footer start -->
         <footer id="contact" class="footer">
@@ -164,8 +167,8 @@
             </ul>
         </footer>
         <!-- Footer end -->
-    </main>
-    <script src="scripts/main.js" type="module"></script>
+    </div>
+    <script src="js/app.js" type="module"></script>
 
 </body>
 

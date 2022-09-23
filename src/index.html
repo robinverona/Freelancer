@@ -19,7 +19,7 @@
 </head>
 
 <body data-barba="wrapper">
-    <main id="app">
+    <div id="app" data-barba="container" data-barba-namespace="home">
         <!-- Mobile menu sidebar start -->
         <nav class="sidebar sidebar--hidden">
 
@@ -73,7 +73,7 @@
         </header>
         <!-- Navbar end -->
         <!-- Curated projects start -->
-        <section class="curated-projects" data-barba="container" data-barba-namespace="home">
+        <section class="curated-projects">
             <h1 class="curated-project__title">
                 Curated projects
             </h1>
@@ -83,9 +83,9 @@
                         <img src="https://images.unsplash.com/photo-1583585635793-0e1894c169bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=913&q=80')"
                             alt="Placeholder" class="curated-projects__image">
                         <div class="curated-projects__overlay">
-                            <h2 class="curated-projects__overlay-title">Project 1</h2>
+                            <h2 class="curated-projects__overlay-title">Click Clack</h2>
                             <div class="curated-projects__overlay-infos">
-                                <span>Skills</span>
+                                <span>Vue.js</span>
                                 <span>2022</span>
                             </div>
                         </div>
@@ -96,10 +96,10 @@
                         <img src="https://images.unsplash.com/photo-1583585635793-0e1894c169bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=913&q=80')"
                             alt="Placeholder" class="curated-projects__image">
                         <div class="curated-projects__overlay">
-                            <h2 class="curated-projects__overlay-title">Project 2</h2>
+                            <h2 class="curated-projects__overlay-title">Sonolithe</h2>
                             <div class="curated-projects__overlay-infos">
-                                <span>Skills</span>
-                                <span>2022</span>
+                                <span>Unity</span>
+                                <span>2021</span>
                             </div>
                         </div>
                     </a>
@@ -109,10 +109,10 @@
                         <img src="https://images.unsplash.com/photo-1583585635793-0e1894c169bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=913&q=80')"
                             alt="Placeholder" class="curated-projects__image">
                         <div class="curated-projects__overlay">
-                            <h2 class="curated-projects__overlay-title">Project 3</h2>
+                            <h2 class="curated-projects__overlay-title">Make.org</h2>
                             <div class="curated-projects__overlay-infos">
-                                <span>Skills</span>
-                                <span>2022</span>
+                                <span>React.js</span>
+                                <span>Depuis 2020</span>
                             </div>
                         </div>
                     </a>
@@ -122,10 +122,10 @@
                         <img src="https://images.unsplash.com/photo-1583585635793-0e1894c169bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=913&q=80')"
                             alt="Placeholder" class="curated-projects__image">
                         <div class="curated-projects__overlay">
-                            <h2 class="curated-projects__overlay-title">Project 4</h2>
+                            <h2 class="curated-projects__overlay-title">Matrice</h2>
                             <div class="curated-projects__overlay-infos">
-                                <span>Skills</span>
-                                <span>2022</span>
+                                <span>Ruby</span>
+                                <span>2018</span>
                             </div>
                         </div>
                     </a>
@@ -148,8 +148,10 @@
             </ul>
         </footer>
         <!-- Footer end -->
-    </main>
-    <script src="scripts/main.js" type="module"></script>
+    </div>
+    <!-- Main end -->
+
+    <script src="js/app.js" type="module"></script>
 </body>
 
 </html>

@@ -20,7 +20,7 @@
 }
 
 .project__overview h2 {
-    @include text-sm;
+    @include text-xs;
     text-transform: uppercase;
     border-bottom: $primary-text-color 1px solid;
 
