@@ -5,7 +5,12 @@
   "author": "Robin Verona",
   "license": "MIT",
   "private": true,
-  "source": ["src/index.html", "src/about.html", "src/projects.html", "src/example-project.html"],
+  "source": [
+    "src/index.html",
+    "src/about.html",
+    "src/projects.html",
+    "src/example-project.html"
+  ],
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "start": "parcel & sass --watch src/styles/_app.scss src/styles/app.css",
@@ -22,6 +27,8 @@
     "shx": "^0.3.2"
   },
   "dependencies": {
+    "@barba/core": "^2.9.7",
+    "gsap": "^3.11.1",
     "sass": "^1.54.8"
   },
   "config": {

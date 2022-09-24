@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="styles/app.css">
 </head>
 
-<body>
-    <main id="app">
+<body data-barba="wrapper">
+    <div id="app" data-barba="container" data-barba-namespace="portfolio">    
         <!-- Mobile menu sidebar start -->
         <nav class="sidebar sidebar--hidden">
 
@@ -64,107 +64,109 @@
         </header>
         <!-- Navbar end -->
         <!-- Mobile portfolio start -->
-        <section class="mobile-portfolio">
-            <h1>
-                Projects list
-            </h1>
-            <ul class="mobile-portfolio__list">
-                <li class="mobile-portfolio__item">
-                    <a href="example-project.html" class="mobile-portfolio__link">
-                        <img src="https://images.unsplash.com/photo-1583585635793-0e1894c169bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=913&q=80')"
-                            alt="Placeholder" class="mobile-portfolio__image">
-                        <div class="mobile-portfolio__overlay">
-                            <h2 class="mobile-portfolio__overlay-title">Project 1</h2>
-                            <div class="mobile-portfolio__overlay-infos">
-                                <span>Skills</span>
-                                <span>2022</span>
+            <section class="mobile-portfolio">
+                <h1>
+                    Projects list
+                </h1>
+                <ul class="mobile-portfolio__list">
+                    <li class="mobile-portfolio__item">
+                        <a href="example-project.html" class="mobile-portfolio__link">
+                            <img src="https://images.unsplash.com/photo-1583585635793-0e1894c169bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=913&q=80')"
+                                alt="Placeholder" class="mobile-portfolio__image">
+                            <div class="mobile-portfolio__overlay">
+                                <h2 class="mobile-portfolio__overlay-title">Project 1</h2>
+                                <div class="mobile-portfolio__overlay-infos">
+                                    <span>Skills</span>
+                                    <span>2022</span>
+                                </div>
                             </div>
-                        </div>
-                    </a>
-                </li>
-                <li class="mobile-portfolio__item">
-                    <a href="example-project.html" class="mobile-portfolio__link">
-                        <img src="https://images.unsplash.com/photo-1583585635793-0e1894c169bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=913&q=80')"
-                            alt="Placeholder" class="mobile-portfolio__image">
-                        <div class="mobile-portfolio__overlay">
-                            <h2 class="mobile-portfolio__overlay-title">Project 2</h2>
-                            <div class="mobile-portfolio__overlay-infos">
-                                <span>Skills</span>
-                                <span>2022</span>
+                        </a>
+                    </li>
+                    <li class="mobile-portfolio__item">
+                        <a href="example-project.html" class="mobile-portfolio__link">
+                            <img src="https://images.unsplash.com/photo-1583585635793-0e1894c169bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=913&q=80')"
+                                alt="Placeholder" class="mobile-portfolio__image">
+                            <div class="mobile-portfolio__overlay">
+                                <h2 class="mobile-portfolio__overlay-title">Project 2</h2>
+                                <div class="mobile-portfolio__overlay-infos">
+                                    <span>Skills</span>
+                                    <span>2022</span>
+                                </div>
                             </div>
-                        </div>
-                    </a>
-                </li>
-                <li class="mobile-portfolio__item">
-                    <a href="example-project.html" class="mobile-portfolio__link">
-                        <img src="https://images.unsplash.com/photo-1583585635793-0e1894c169bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=913&q=80')"
-                            alt="Placeholder" class="mobile-portfolio__image">
-                        <div class="mobile-portfolio__overlay">
-                            <h2 class="mobile-portfolio__overlay-title">Project 3</h2>
-                            <div class="mobile-portfolio__overlay-infos">
-                                <span>Skills</span>
-                                <span>2022</span>
+                        </a>
+                    </li>
+                    <li class="mobile-portfolio__item">
+                        <a href="example-project.html" class="mobile-portfolio__link">
+                            <img src="https://images.unsplash.com/photo-1583585635793-0e1894c169bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=913&q=80')"
+                                alt="Placeholder" class="mobile-portfolio__image">
+                            <div class="mobile-portfolio__overlay">
+                                <h2 class="mobile-portfolio__overlay-title">Project 3</h2>
+                                <div class="mobile-portfolio__overlay-infos">
+                                    <span>Skills</span>
+                                    <span>2022</span>
+                                </div>
                             </div>
-                        </div>
-                    </a>
-                </li>
-            </ul>
-        </section>
-        <!-- Mobile portfolio end -->
-        <!-- Desktop portfolio start -->
-        <section class="desktop-portfolio">
-            <h1>
-                Projects list
-            </h1>
-            <table class="desktop-portfolio__table">
-                <tr class="desktop-portfolio__table-row">
-                    <th class="desktop-portfolio__label">Titre</th>
-                    <th class="desktop-portfolio__label">Client</th>
-                    <th class="desktop-portfolio__label">Compétences</th>
-                    <th class="desktop-portfolio__label">Année</th>
-                </tr>
-                <tr class="desktop-portfolio__item">
-                    <td class="desktop-portfolio__title">
-                        <a href="example-project.html">Project title 1</a>
-                    </td>
-                    <td>Client 1</td>
-                    <td>Vue.js, JavaScript, WebSockets, Game Design, Narrative Design</td>
-                    <td>2022</td>
-                </tr>
-                <tr class="desktop-portfolio__item">
-                    <td class="desktop-portfolio__title">
-                        <a href="example-project.html">Project title 2</a>
-                    </td>
-                    <td>Client 2</td>
-                    <td>React.js, JavaScript, WebSockets</td>
-                    <td>2021</td>
-                </tr>
-                <tr class="desktop-portfolio__item">
-                    <td class="desktop-portfolio__title">
-                        <a href="example-project.html">Project title 3</a>
-                    </td>
-                    <td>Client 3</td>
-                    <td>JavaScript, UX Design</td>
-                    <td>2020</td>
-                </tr>
-                <tr class="desktop-portfolio__item">
-                    <td class="desktop-portfolio__title">
-                        <a href="example-project.html">Project title 4</a>
-                    </td>
-                    <td>Client 3</td>
-                    <td>JavaScript, UX Design</td>
-                    <td>2020</td>
-                </tr>
-                <tr class="desktop-portfolio__item">
-                    <td class="desktop-portfolio__title">
-                        <a href="example-project.html">Project title 5</a>
-                    </td>
-                    <td>Client 2</td>
-                    <td>React.js, JavaScript, WebSockets</td>
-                    <td>2021</td>
-                </tr>
-            </table>
-        </section>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <!-- Mobile portfolio end -->
+            <!-- Desktop portfolio start -->
+            <section class="desktop-portfolio">
+                <h1>
+                    Projects list
+                </h1>
+                <table class="desktop-portfolio__table">
+                    <tr class="desktop-portfolio__table-row">
+                        <th class="desktop-portfolio__label">Titre</th>
+                        <th class="desktop-portfolio__label">Client</th>
+                        <th class="desktop-portfolio__label">Compétences</th>
+                        <th class="desktop-portfolio__label">Année</th>
+                    </tr>
+                    <tr class="desktop-portfolio__item">
+                        <td class="desktop-portfolio__title">
+                            <a href="example-project.html">Project title 1</a>
+                        </td>
+                        <td>Client 1</td>
+                        <td>Vue.js, JavaScript, WebSockets, Game Design, Narrative Design</td>
+                        <td>2022</td>
+                    </tr>
+                    <tr class="desktop-portfolio__item">
+                        <td class="desktop-portfolio__title">
+                            <a href="example-project.html">Project title 2</a>
+                        </td>
+                        <td>Client 2</td>
+                        <td>React.js, JavaScript, WebSockets</td>
+                        <td>2021</td>
+                    </tr>
+                    <tr class="desktop-portfolio__item">
+                        <td class="desktop-portfolio__title">
+                            <a href="example-project.html">Project title 3</a>
+                        </td>
+                        <td>Client 3</td>
+                        <td>JavaScript, UX Design</td>
+                        <td>2020</td>
+                    </tr>
+                    <tr class="desktop-portfolio__item">
+                        <td class="desktop-portfolio__title">
+                            <a href="example-project.html">Project title 4</a>
+                        </td>
+                        <td>Client 3</td>
+                        <td>JavaScript, UX Design</td>
+                        <td>2020</td>
+                    </tr>
+                    <tr class="desktop-portfolio__item">
+                        <td class="desktop-portfolio__title">
+                            <a href="example-project.html">Project title 5</a>
+                        </td>
+                        <td>Client 2</td>
+                        <td>React.js, JavaScript, WebSockets</td>
+                        <td>2021</td>
+                    </tr>
+                </table>
+            </section>
+        </main>
+        
         <!-- Desktop portfolio end -->
         <!-- Footer start -->
         <footer id="contact" class="footer">
@@ -181,8 +183,9 @@
             </ul>
         </footer>
         <!-- Footer end -->
-    </main>
-    <script src="scripts/index.js"></script>
+        </div>
+    <!-- </main> -->
+    <script src="js/app.js" type="module"></script>
 
 </body>
 

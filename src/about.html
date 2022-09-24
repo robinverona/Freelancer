@@ -9,8 +9,9 @@
     <link rel="stylesheet" href="styles/app.css">
 </head>
 
-<body>
-    <main id="app">
+<body data-barba="wrapper">
+    <div id="app" data-barba="container" data-barba-namespace="about">    
+        <!-- <main id="app" > -->
         <!-- Mobile menu sidebar start -->
         <nav class="sidebar sidebar--hidden">
 
@@ -63,6 +64,7 @@
         </header>
         <!-- Navbar end -->
         <!-- Curated projects start -->
+
         <section class="about">
             <h1 class="about__title">
                 About
@@ -89,7 +91,9 @@
                     <div class="details">
                         <h2 class="details__title">Nom du service</h2>
                         <h2 class="details__label">01</h2>
-                        <p class="details__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultrices tellus hendrerit purus donec id id. Odio mattis turpis pellentesque cras mattis vestibulum.
+                        <p class="details__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultrices
+                            tellus hendrerit purus donec id id. Odio mattis turpis pellentesque cras mattis vestibulum.
+                        </p>
                     </div>
                 </li>
                 <li class="about__item">
@@ -113,7 +117,9 @@
                     <div class="details">
                         <h2 class="details__title">Nom du service</h2>
                         <h2 class="details__label">02</h2>
-                        <p class="details__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultrices tellus hendrerit purus donec id id. Odio mattis turpis pellentesque cras mattis vestibulum.
+                        <p class="details__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultrices
+                            tellus hendrerit purus donec id id. Odio mattis turpis pellentesque cras mattis vestibulum.
+                        </p>
                     </div>
                 </li>
                 <li class="about__item">
@@ -137,11 +143,14 @@
                     <div class="details">
                         <h2 class="details__title">Nom du service</h2>
                         <h2 class="details__label">03</h2>
-                        <p class="details__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultrices tellus hendrerit purus donec id id. Odio mattis turpis pellentesque cras mattis vestibulum.
+                        <p class="details__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultrices
+                            tellus hendrerit purus donec id id. Odio mattis turpis pellentesque cras mattis vestibulum.
+                        </p>
                     </div>
                 </li>
             </ul>
         </section>
+
         <!-- Curated projects end -->
         <!-- Footer start -->
         <footer id="contact" class="footer">
@@ -158,8 +167,8 @@
             </ul>
         </footer>
         <!-- Footer end -->
-    </main>
-    <script src="scripts/index.js"></script>
+    </div>
+    <script src="js/app.js" type="module"></script>
 
 </body>
 
